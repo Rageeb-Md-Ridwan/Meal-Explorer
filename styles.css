@@ -1,0 +1,17 @@
+.box {
+  text-align: center;
+  width: 200px;
+  height: 340px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+}
+#meals-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-left: 100px;
+  row-gap: 30px;
+}
+.box-img {
+  width: 100%;
+}
